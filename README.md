@@ -26,6 +26,17 @@ Function: #Function<1.124100197/0 in Client.run>
     Args: []
 ```
 
+## Env
+
+OS: ARM64 and X64 MacOS 12.3
+
+```bash
+$ elixir --version
+Erlang/OTP 25 [erts-13.1.3] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit] [dtrace]
+
+Elixir 1.14.3 (compiled with Erlang/OTP 25)
+```
+
 ## How to run
 
 ```bash
