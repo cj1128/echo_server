@@ -26,6 +26,13 @@ Function: #Function<1.124100197/0 in Client.run>
     Args: []
 ```
 
+I tried
+
+- `sysctl kern.ipc.somaxconn=1000` increase TCP queue size
+- Add an accept pool, so multiple processes are accepting connections
+
+none of them worked, still got those errors.
+
 ## Env
 
 OS: ARM64 and X64 MacOS 12.3
